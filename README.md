@@ -1,0 +1,2 @@
+# anamed
+Testowa aplikacja anamed
