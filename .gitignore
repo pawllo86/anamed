@@ -1,4 +1,5 @@
-/model/target/
+/model/target/**
+/web/target/**
 
 .settings/
 *.class
