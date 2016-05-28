@@ -8,7 +8,7 @@ import anamed.controller.BaseController;
 @Controller
 public class MainController extends BaseController {
 
-	@RequestMapping("/")
+	@RequestMapping("/*")
 	public String home() {
 		logCalledMethod();
 

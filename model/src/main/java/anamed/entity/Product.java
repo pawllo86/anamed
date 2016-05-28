@@ -11,12 +11,12 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "ARTICLE")
-public class Article implements Serializable {
+public class Product implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	@Column(name = "name", nullable = false)
